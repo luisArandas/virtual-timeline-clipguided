@@ -2,7 +2,7 @@
 
 # virtual-timeline-clipguided
 
-simple python implementation of a language-based virtual timeline  
+small python implementation of a language-based virtual timeline  
 establishes a simple template to compute video sequences and TTS through summarisation and further CLIP embeddings
 environment developed with ubuntu 22.04, nvidia 470.161 and CUDA 11.4. runs on 24Gb at [512,288]; e.g. PNY XLR8 3090
 
