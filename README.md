@@ -4,8 +4,7 @@
 
 simple python implementation of a language-based virtual timeline  
 establishes a simple template to compute video sequences and TTS through summarisation and further CLIP embeddings
-environment developed with ubuntu 22.04, nvidia 470.161 and CUDA 11.4  
-runs on 24Gb at [720,405]; e.g. PNY XLR8 3090
+environment developed with ubuntu 22.04, nvidia 470.161 and CUDA 11.4. runs on 24Gb at [720,405]; e.g. PNY XLR8 3090
 
 camera trucks are automated and hardcoded with disco-diffusion implementation, GUI will come on a separate repository with movement templates. this is research code, will optimise for reproducibility next couple of months. templates don't necessarily mean determinism on the GPU with CLIP-guidance
 
