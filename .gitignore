@@ -5,3 +5,6 @@ __pycache__/
 pretrained/
 media/
 interface.py
+progress.png
+prevFrameScaled.png
+prevFrame.png
