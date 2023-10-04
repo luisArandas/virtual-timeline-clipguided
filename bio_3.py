@@ -1,13 +1,7 @@
 
 
-""" 
-    luis arandas 14-07-2023
-
-    $ python3 bio_3.py --speech_from_text ./path/to/dataset.txt
-
-    tests with (kdiff)
-""" 
-
+# luis arandas 14-07-2023
+# $ python3 bio_3.py --speech_from_text ./path/to/dataset.txt
 
 import os
 import argparse

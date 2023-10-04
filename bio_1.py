@@ -1,13 +1,7 @@
 
 
-""" 
-    luis arandas 13-08-2023
-
-    $ python3 bio_1.py --text_dataset ./path/to/dataset
-
-    tests with (bio-env.txt)
-""" 
-
+# luis arandas 13-08-2023
+# $ python3 bio_1.py --text_dataset ./path/to/dataset
 
 import os
 import argparse

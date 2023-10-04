@@ -1,13 +1,7 @@
 
 
-""" 
-    luis arandas 27-10-2023
-
-    $ python3 bio_2.py --summaries_dataset ./path/to/dataset
-
-    tests with (bio-env.txt)
-"""
-
+# luis arandas 27-10-2023
+# $ python3 bio_2.py --summaries_dataset ./path/to/dataset
 
 import os
 import re

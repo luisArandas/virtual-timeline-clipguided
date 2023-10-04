@@ -239,9 +239,8 @@ class VirtualTimeline:
     
     
     def update_dict(self, d: dict, new_keys: list[int], new_values: list[str]) -> dict:
-        d.clear() # this procedure resets
+        d.clear() # this resets
         for i, key in enumerate(new_keys):
-            # d[key] = [str(new_values[i])+":5", str(self.prompts_to_exclude)+":-1"] if i < len(new_values) else '' # weights must never sum to 0
             exclude_str = f", {self._prompts_to_exclude}:-1" if self._prompts_to_exclude else ""
             d[key] = f"{new_values[i]}:5{exclude_str}" if i < len(new_values) else ''  # weights must never sum to 0
         return d
@@ -343,7 +342,6 @@ class VirtualTimeline:
     
     
     def compute_total_duration(self, audio_files_info: list) -> int:
-        # updates internal state, total duration of loaded audio files
         total_duration_seconds = 0
         for audio_info in audio_files_info:
             _, sample_rate, num_samples = audio_info

@@ -1,12 +1,7 @@
 
 
-""" 
-    luis arandas 14-08-2023
-
-    $ python3 bio_4.py --defined_length --length 00:02:00:00 --audio_folder tts_output/
-
-    tests with (kdiff)
-"""
+# luis arandas 14-08-2023
+# $ python3 bio_4.py --defined_length --length 00:02:00:00 --audio_folder tts_output/
 
 import argparse
 

@@ -1,13 +1,7 @@
 
 
-""" 
-    luis arandas 02-09-2023
-
-    $ python3 bio_5.py --timeline_file /path/.txt
-
-    tests with (kdiff)
-"""
-
+# luis arandas 02-09-2023
+# $ python3 bio_5.py --timeline_file /path/.txt
 
 import os
 import argparse
@@ -61,6 +55,7 @@ def main():
     
     AudioProcessing.mix_audios_with_background(trimmed_background_path, inserts, output_path)
 
+    print("Complete.")
 
 
 if __name__ == "__main__":
