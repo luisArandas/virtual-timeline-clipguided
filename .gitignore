@@ -1,10 +1,8 @@
-libs/
+
 models/
-output/
+text_output/
+tts_output/
+background.wav
+background_trimmed.wav
+output_mixed.wav
 __pycache__/
-pretrained/
-media/
-interface.py
-progress.png
-prevFrameScaled.png
-prevFrame.png
